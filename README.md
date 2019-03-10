@@ -1,7 +1,7 @@
 # viewlux2cvs file converter
 
 #### Description
-`viewlux2cvs` converts a measurement file of ViewLux uHTS Microplate Imager file by selecting all plate information within the measurement file and outputing each plate seperately into a run folder.
+`viewlux2cvs` converts a ViewLux file by extracting each plate measurement and outputing each plate seperately into a `run_id` folder.
 
 ##### Usage
 
@@ -18,7 +18,7 @@ run-win.bat
 
 __Input file__
 
-Takes a text measurement file (exported by the Wallach software) and extracts each plate reading into a seperate file. The indvidual plates are put into a folder.
+Takes a measurement file (exported by the Wallach software) and extracts each plate reading into a seperate file. The indvidual plates are placed into a run folder.
 
 __Output file__
 
@@ -42,8 +42,7 @@ The `run.bat` file uses RScript.exe whose location is defined by the variable `R
 
 #### References
 
-##### See Also
+##### See Also 
 
 #### Examples
 
-Use the `viewlux.txt` file located in the `data` folder.
