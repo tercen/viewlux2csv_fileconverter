@@ -21,7 +21,7 @@ __Input file__
 Takes a measurement file (exported by the Wallach software) and extracts each plate reading into a separate file. The individual plates are placed into a run folder.
 
 __Output file__
-
+ 
 A folder is created with the `run_id` and in the folder there is a file for each plate named with the `run_id` and `plate_num`.
 
 
@@ -38,7 +38,7 @@ The file conversion takes a measurement file (exported by the Wallach software) 
 * `well_name`
 * `sample_id`
 
-The `run.bat` file uses RScript.exe whose location is defined by the variable `RSCRIPT_EXE`) , default is the RScript.exe which comes with Tercen Desktop installation.
+The `run.bat` file uses RScript.exe whose location is defined by the variable `RSCRIPT_EXE`, by default it points to the RScript.exe in the Tercen Desktop installation directory.
 
 #### References
 
